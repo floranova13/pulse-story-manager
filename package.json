@@ -21,6 +21,7 @@
   "dependencies": {
     "@google-cloud/local-auth": "^2.1.0",
     "dotenv": "^16.0.3",
+    "eslint": "^8.27.0",
     "googleapis": "^105.0.0"
   }
 }

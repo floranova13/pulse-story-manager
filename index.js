@@ -3,6 +3,9 @@ import path from 'path';
 import process from 'process';
 import { google } from 'googleapis';
 import { authenticate } from '@google-cloud/local-auth';
+import command from './commands/index.js';
+
+require('dotenv').config();
 
 // If modifying these scopes, delete token.json.
 const SCOPES = ['https://www.googleapis.com/auth/drive'];
@@ -65,37 +68,13 @@ async function authorize() {
   return client;
 }
 
-/**
- * Lists the names and IDs of up to 10 files.
- * @param {OAuth2Client} authClient An authorized OAuth2 client.
- */
-async function listFiles(authClient) {
-  const drive = google.drive({ version: 'v3', auth: authClient });
-  const res = await drive.files.list({
-    pageSize: 10,
-    fields: 'nextPageToken, files(id, name)',
-  });
-  const files = res.data.files;
-  if (files.length === 0) {
-    console.log('No files found.');
-    return;
-  }
-
-  console.log('Files:');
-  files.map((file) => {
-    console.log(`${file.name} (${file.id})`);
-  });
-}
-
-const begin = async () => {
+const runApp = async () => {
   try {
-    await authorize();
-    listFiles();
+    const client = await authorize();
+    command.create.createFile(client, '../../files/chapters/current/Chapter 1.md', 'chapters-current');
   } catch (error) {
     console.log(error);
   }
 };
 
-begin();
-
-// authorize().then(listFiles).catch(console.error);
+runApp();
