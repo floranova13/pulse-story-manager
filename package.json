@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "This app will manage my stories (and more) using Google's Drive API.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node ."
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/floranova13/pulse-story-manager/issues"
   },
-  "homepage": "https://github.com/floranova13/pulse-story-manager#readme"
+  "homepage": "https://github.com/floranova13/pulse-story-manager#readme",
+  "dependencies": {
+    "@google-cloud/local-auth": "^2.1.0",
+    "dotenv": "^16.0.3",
+    "googleapis": "^105.0.0"
+  }
 }
