@@ -1,8 +1,9 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable indent */
 import { google } from 'googleapis';
-import { promises as fs } from 'fs';
-import { getFolderId } from './utils';
+import fs from 'fs';
+import { getFolderId } from './utils.js';
+import path from 'path';
 
 /**
  * Create file in Google Drive
@@ -12,7 +13,7 @@ import { getFolderId } from './utils';
  */
 const createFile = async (authClient, filePath, folderName) => {
   const drive = google.drive({ version: 'v3', auth: authClient });
-  const fileName = filePath.split('/').pop();
+  const fileName = filePath.split('\\').pop();
   const folderId = getFolderId(folderName);
 
   const fileMetadata = {
@@ -20,8 +21,8 @@ const createFile = async (authClient, filePath, folderName) => {
     parents: [folderId],
   };
   const media = {
-    mimeType: 'application/vnd.google-apps.document',
-    body: await fs.readFile(filePath),
+    mimeType: 'text/markdown',
+    body: await fs.createReadStream(filePath),
   };
   const res = await drive.files.create({
     resource: fileMetadata,
@@ -35,7 +36,11 @@ const createFile = async (authClient, filePath, folderName) => {
 const uploadChapters = async (authClient) => {
   const chapters = await fs.readdir('../../files/chapters');
   for (const chapter of chapters) {
-    await createFile(authClient, `../../files/chapters/${chapter}`, 'Chapters');
+    await createFile(
+      authClient,
+      path.join(process.cwd(), `files/chapters/${chapter}`),
+      'Chapters'
+    );
   }
 
   console.log('All chapters uploaded');

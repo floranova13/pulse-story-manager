@@ -1,11 +1,12 @@
 import { promises as fs } from 'fs';
+import * as dotenv from 'dotenv';
 import path from 'path';
 import process from 'process';
 import { google } from 'googleapis';
 import { authenticate } from '@google-cloud/local-auth';
 import command from './commands/index.js';
 
-require('dotenv').config();
+dotenv.config();
 
 // If modifying these scopes, delete token.json.
 const SCOPES = ['https://www.googleapis.com/auth/drive'];
@@ -71,7 +72,11 @@ async function authorize() {
 const runApp = async () => {
   try {
     const client = await authorize();
-    command.create.createFile(client, '../../files/chapters/current/Chapter 1.md', 'chapters-current');
+    command.create.createFile(
+      client,
+      path.join(process.cwd(), '/files/chapters/current/chapter-1.md'),
+      'chapters-current'
+    );
   } catch (error) {
     console.log(error);
   }
