@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 /* eslint-disable indent */
 import { google } from 'googleapis';
 import fs from 'fs';

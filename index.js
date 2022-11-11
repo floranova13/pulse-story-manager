@@ -72,11 +72,13 @@ async function authorize() {
 const runApp = async () => {
   try {
     const client = await authorize();
-    command.create.createFile(
-      client,
-      path.join(process.cwd(), '/files/chapters/current/chapter-1.md'),
-      'chapters-current'
-    );
+    // command.create.createFile(
+    //   client,
+    //   path.join(process.cwd(), '/files/chapters/current/chapter-1.md'),
+    //   'chapters-current'
+    // );
+    // command.scan.readChapter(1);
+    console.log(command.scan.readCurrentChapters());
   } catch (error) {
     console.log(error);
   }

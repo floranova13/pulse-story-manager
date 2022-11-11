@@ -2,4 +2,8 @@
 This app will manage my stories (and more) using Google's Drive API.
 
 ## TODO: 
-- [ ] Add a way get the names of files within a directory and then, one by one, upload them to the drive.
+- [ ] Split chapters into sequence breaks by '---' and classify by perspective Character and location
+- [ ] Finish function that classifies chapters.
+- [ ] X
+- [ ] Y
+- [ ] Z
