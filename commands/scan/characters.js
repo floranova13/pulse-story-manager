@@ -1,2 +1,2 @@
-export const getCharacterInfo = (characterName) => {
-};
+// export const getCharacterInfo = (characterName) => {
+// };
