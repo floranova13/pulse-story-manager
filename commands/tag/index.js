@@ -1,9 +1,12 @@
 import currentChapters from '../../resources/currentChapters.js';
-import { CHARACTER_NAMES } from './constants.js';
+import path from 'path';
+import fs from 'fs';
 import _ from 'lodash';
 import commands from '../index.js';
 import { getFileName, getFileNameBase } from '../../utils/index.js';
 import { getSegments, getSegmentData } from './utils.js';
+import { getSegmentSubjectData } from './subjects.js';
+import { getCharactersInSegment } from './characters.js';
 
 export const getChapterTags = (chapterName) => {
   const chapterNameBase = getFileNameBase(chapterName); // strip extension
@@ -13,7 +16,7 @@ export const getChapterTags = (chapterName) => {
   }
 };
 
-export const setCurrentChapterData = () => {
+export const getAllCurrentChapterData = () => {
   const chapterContents = commands.scan.readCurrentChapters();
   const chaptersData = {};
 
@@ -26,58 +29,37 @@ export const setCurrentChapterData = () => {
   return chaptersData;
 };
 
-export const getCurrentChapterData = (chapterData) => {
-  const chapterSegments = getSegments(chapterData.contents);
-
-  return chapterSegments.map((segment) => {
-    const name = getFileName(chapterData.name);
-    const segmentData = getSegmentData(segment);
-
-    return {
-      name,
-      segments: [...segmentData],
-      characters: _.flatten(segmentData.map((data) => data.characters)),
-    };
-  });
+export const setAllChapterData = () => {
+  const newData = getAllCurrentChapterData();
+  fs.writeFileSync(
+    path.join(process.cwd(), '../../resources/currentChapters.json'),
+    JSON.stringify(newData)
+  );
 };
 
-export const getCharactersData = () => [
-  ...CHARACTER_NAMES.primary,
-  ...CHARACTER_NAMES.secondary,
-  ...CHARACTER_NAMES.hexknight,
-];
+export const getCurrentChapterData = (chapterInfo) => {
+  const chapterSegments = getSegments(chapterInfo.contents);
+  const name = getFileName(chapterInfo.name);
+  const chapterData = {
+    name,
+    segments: chapterSegments.map((segment) => getSegmentData(segment)),
+  };
 
-export const getCharacterSet = () => {
-  const characters = getCharactersData();
-  return _.flatten(characters.map((nameData) => nameData.aliases));
+  chapterData.characters = _.uniq(
+    chapterData.segments.map((segment) => segment.characters)
+  );
+
+  return chapterData;
 };
 
-export const getCharacterMap = () => {
-  const characterMap = {};
-  const characters = getCharactersData();
+export const getCurrentSegmentData = (segment) => {
+  const segmentData = getSegmentData(segment);
+  const characters = getCharactersInSegment(segment);
+  const subjects = getSegmentSubjectData(segment);
 
-  for (const character in characters) {
-    character.aliases.forEach((alias) => {
-      characterMap[alias] = character.name;
-      characterMap[`${alias}'s`] = character.name;
-    });
-  }
-
-  return characterMap;
-};
-
-export const getCharacterNames = () => Array.from(getCharacterSet());
-
-export const getCharactersInSegment = (segment) => {
-  const characters = getCharacterNames();
-  const characterMap = getCharacterMap();
-  const charactersInSegment = [];
-
-  for (const character in characters) {
-    if (segment.includes(character)) {
-      charactersInSegment.push(characterMap[character]);
-    }
-  }
-
-  return charactersInSegment;
+  return {
+    ...segmentData,
+    characters,
+    subjects,
+  };
 };
