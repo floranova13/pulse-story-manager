@@ -1,22 +1,17 @@
 /* eslint-disable indent */
-export const getSegments = (content) => content.split('---');
+export const getSegments = (content) => content.split('---').slice(1);
 
 export const getSegmentData = (segment) => {
   const subject = segment
-    .match(/\[Subject:[A-Za-z0-9]+\]/)[0]
-    .split(':')[1]
-    .replace(']', '')
+    .match(/\[Subject:(.+)\]/)[1]
     .trim();
   const location = segment
-    .match(/\[Location:[A-Za-z0-9]+\]/)[0]
-    .split(':')[1]
-    .replace(']', '')
+    .match(/\[Location:(.+)\]/)[1]
     .trim();
-  const observer = /\[Observer:[A-Za-z0-9]+\]/.test(segment)
+  const observer = /\[Observer:(.+)\]/.test(segment)
     ? segment
-        .match(/\[Observer:[A-Za-z0-9]+\]/)[0]
-        .split(':')[1]
-        .replace(']', '')
+        .match(/\[Observer:(.+)\]/)[1]
+        .trim()
     : '???';
   const segmentData = {
     subject,

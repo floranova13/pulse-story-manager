@@ -1,4 +1,4 @@
-import currentChapters from '../../resources/currentChapters.js';
+import currentChapters from '../../resources/currentChapters.json' assert { type: 'json' };
 import path from 'path';
 import fs from 'fs';
 import _ from 'lodash';
@@ -21,9 +21,7 @@ export const getAllCurrentChapterData = () => {
   const chaptersData = {};
 
   chapterContents.forEach((chapterContent) => {
-    chaptersData[chapterContent.name] = getCurrentChapterData(
-      chapterContents.contents
-    );
+    chaptersData[chapterContent.name] = getCurrentChapterData(chapterContent);
   });
 
   return chaptersData;
@@ -32,7 +30,7 @@ export const getAllCurrentChapterData = () => {
 export const setAllChapterData = () => {
   const newData = getAllCurrentChapterData();
   fs.writeFileSync(
-    path.join(process.cwd(), '../../resources/currentChapters.json'),
+    path.join(process.cwd(), '/resources/currentChapters.json'),
     JSON.stringify(newData)
   );
 };
@@ -42,8 +40,10 @@ export const getCurrentChapterData = (chapterInfo) => {
   const name = getFileName(chapterInfo.name);
   const chapterData = {
     name,
+    title: chapterInfo.title,
     segments: chapterSegments.map((segment) => getSegmentData(segment)),
   };
+  console.log(chapterInfo.title);
 
   chapterData.characters = _.uniq(
     chapterData.segments.map((segment) => segment.characters)

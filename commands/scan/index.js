@@ -17,11 +17,19 @@ const readCurrentChapters = () => {
     ) {
       const chapterPath = path.join(currentChaptersPath, file);
 
-      chapters.push({
-        name: file,
-        path: chapterPath,
-        contents: readFileText(chapterPath),
-      });
+      if (
+        parseInt(file.split('-')[1].split('.')[0]) < 46 &&
+        readFileText(chapterPath).split('---').length > 1
+      ) {
+        console.log(parseInt(file.split('-')[1].split('.')[0]));
+        const chapterInfo = {
+          name: file,
+          path: chapterPath,
+          title: readFileText(chapterPath).split('\r')[0].split(':')[1],
+          contents: readFileText(chapterPath),
+        };
+        chapters.push(chapterInfo);
+      }
     }
   });
 

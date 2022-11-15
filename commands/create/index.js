@@ -45,4 +45,19 @@ const uploadChapters = async (authClient) => {
   console.log('All chapters uploaded');
 };
 
-export default { createFile, uploadChapters };
+const createChapterFiles = () => {
+  for (let i = 2; i <= 113; i++) {
+    const chapter = `chapter-${i}.md`;
+    fs.writeFileSync(
+      `G:/My Drive/stories/blightbane/chapters/current/${chapter}`,
+      `# Chapter ${i}: \r\n---`,
+      (err) => {
+        if (err) {
+          console.log(err);
+        }
+      }
+    );
+  }
+};
+
+export default { createFile, uploadChapters, createChapterFiles };

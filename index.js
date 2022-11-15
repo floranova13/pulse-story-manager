@@ -5,6 +5,7 @@ import process from 'process';
 import { google } from 'googleapis';
 import { authenticate } from '@google-cloud/local-auth';
 import command from './commands/index.js';
+import { setAllChapterData } from './commands/tag/index.js';
 
 dotenv.config();
 
@@ -78,7 +79,8 @@ const runApp = async () => {
     //   'chapters-current'
     // );
     // command.scan.readChapter(1);
-    console.log(command.scan.readCurrentChapters());
+    // console.log(command.scan.readCurrentChapters());
+    setAllChapterData();
   } catch (error) {
     console.log(error);
   }

@@ -1,13 +1,813 @@
 {
-  "1": {
-    "name": "",
-    "sections": [
+  "chapter-1.md": {
+    "name": "chapter-1.md",
+    "title": " Entry",
+    "segments": [
+      { "subject": "Caim", "location": "Unknown", "observer": "???" },
+      { "subject": "Caim", "location": "Unknown", "observer": "???" },
+      { "subject": "Caim", "location": "Unknown", "observer": "???" }
+    ],
+    "characters": [null]
+  },
+  "chapter-2.md": {
+    "name": "chapter-2.md",
+    "title": " Alice, The Blight Seeker",
+    "segments": [
+      { "subject": "Caim", "location": "Shimmerden", "observer": "???" },
+      { "subject": "Caim", "location": "Shimmerden", "observer": "???" },
+      { "subject": "Caim", "location": "Shimmerden", "observer": "???" }
+    ],
+    "characters": [null]
+  },
+  "chapter-3.md": {
+    "name": "chapter-3.md",
+    "title": " Maliscade, The Bastion City",
+    "segments": [
+      { "subject": "Caim", "location": "Sorus Valley", "observer": "???" },
+      { "subject": "Caim", "location": "Sorus Valley", "observer": "???" },
+      { "subject": "Caim", "location": "Sorus Valley", "observer": "???" },
+      { "subject": "Caim", "location": "Sorus Valley", "observer": "???" }
+    ],
+    "characters": [null]
+  },
+  "chapter-4.md": {
+    "name": "chapter-4.md",
+    "title": " The Scientist",
+    "segments": [
+      { "subject": "Inis", "location": "Moss Crescent", "observer": "???" },
+      { "subject": "Inis", "location": "Moss Crescent", "observer": "???" }
+    ],
+    "characters": [null]
+  },
+  "chapter-5.md": {
+    "name": "chapter-5.md",
+    "title": " A Solflame's Embrace",
+    "segments": [
+      { "subject": "Inis", "location": "Moss Crescent", "observer": "???" },
+      { "subject": "Inis", "location": "Moss Crescent", "observer": "???" }
+    ],
+    "characters": [null]
+  },
+  "chapter-6.md": {
+    "name": "chapter-6.md",
+    "title": " Template Cities",
+    "segments": [
+      { "subject": "Caim", "location": "Maliscade", "observer": "???" }
+    ],
+    "characters": [null]
+  },
+  "chapter-7.md": {
+    "name": "chapter-7.md",
+    "title": " The Stranger of Truth",
+    "segments": [
       {
-        "subject": "",
-        "location": "",
-        "observer": "",
-        "characters": [""]
+        "subject": "Caim",
+        "location": "Maliscade - Gate District",
+        "observer": "???"
+      },
+      {
+        "subject": "Caim",
+        "location": "Maliscade - Arbe's Shrine (Gate District)",
+        "observer": "???"
+      },
+      {
+        "subject": "Caim",
+        "location": "Maliscade - Arbe's Shrine (Gate District)",
+        "observer": "???"
       }
-    ]
+    ],
+    "characters": [null]
+  },
+  "chapter-8.md": {
+    "name": "chapter-8.md",
+    "title": " The Blightbane Guild",
+    "segments": [
+      {
+        "subject": "Caim",
+        "location": "Maliscade - The Blightbane Guild",
+        "observer": "???"
+      },
+      {
+        "subject": "Caim",
+        "location": "Maliscade - The Blightbane Guild",
+        "observer": "???"
+      }
+    ],
+    "characters": [null]
+  },
+  "chapter-9.md": {
+    "name": "chapter-9.md",
+    "title": " Wilderness Camp",
+    "segments": [
+      { "subject": "Inis", "location": "Absence Woodland", "observer": "???" },
+      { "subject": "Inis", "location": "Absence Woodland", "observer": "???" },
+      { "subject": "Inis", "location": "Absence Woodland", "observer": "???" }
+    ],
+    "characters": [null]
+  },
+  "chapter-10.md": {
+    "name": "chapter-10.md",
+    "title": " Patience",
+    "segments": [
+      { "subject": "Inis", "location": "Absence Woodland", "observer": "???" },
+      { "subject": "Inis", "location": "Absence Woodland", "observer": "???" },
+      { "subject": "Inis", "location": "Absence Woodland", "observer": "???" }
+    ],
+    "characters": [null]
+  },
+  "chapter-11.md": {
+    "name": "chapter-11.md",
+    "title": " The Keepers",
+    "segments": [
+      {
+        "subject": "Keeper Virgil",
+        "location": "Laberin - The Gravegreen Bar",
+        "observer": "???"
+      },
+      {
+        "subject": "Keeper Virgil",
+        "location": "Laberin - The Gravegreen Bar",
+        "observer": "???"
+      }
+    ],
+    "characters": [null]
+  },
+  "chapter-12.md": {
+    "name": "chapter-12.md",
+    "title": " Galar, Hexaline Knight of Mercy",
+    "segments": [
+      {
+        "subject": "Keeper Virgil",
+        "location": "Laberin - The Gravegreen Bar",
+        "observer": "???"
+      },
+      {
+        "subject": "Keeper Virgil",
+        "location": "Laberin - The Gravegreen Bar",
+        "observer": "???"
+      },
+      {
+        "subject": "Keeper Virgil",
+        "location": "Laberin - The Gravegreen Bar",
+        "observer": "???"
+      }
+    ],
+    "characters": [null]
+  },
+  "chapter-13.md": {
+    "name": "chapter-13.md",
+    "title": " Forgiven in Death (Conditional Forgiveness)",
+    "segments": [
+      {
+        "subject": "Keeper Virgil",
+        "location": "Laberin - The Gravegreen Bar",
+        "observer": "???"
+      },
+      {
+        "subject": "Keeper Virgil",
+        "location": "Laberin - The Gravegreen Bar",
+        "observer": "???"
+      },
+      {
+        "subject": "Keeper Virgil",
+        "location": "Laberin - The Gravegreen Bar",
+        "observer": "???"
+      }
+    ],
+    "characters": [null]
+  },
+  "chapter-14.md": {
+    "name": "chapter-14.md",
+    "title": " The First Dose",
+    "segments": [
+      { "subject": "Inis", "location": "Absence Woodland", "observer": "???" },
+      { "subject": "Inis", "location": "Absence Woodland", "observer": "???" }
+    ],
+    "characters": [null]
+  },
+  "chapter-15.md": {
+    "name": "chapter-15.md",
+    "title": " A Concerned Friend",
+    "segments": [
+      {
+        "subject": "Caim",
+        "location": "Maliscade - The Blightbane Guild",
+        "observer": "???"
+      },
+      {
+        "subject": "Caim",
+        "location": "Maliscade - The Blightbane Guild",
+        "observer": "???"
+      }
+    ],
+    "characters": [null]
+  },
+  "chapter-16.md": {
+    "name": "chapter-16.md",
+    "title": " Power Without a Price",
+    "segments": [
+      { "subject": "Inis", "location": "Unknown", "observer": "???" },
+      { "subject": "Inis", "location": "Unknown", "observer": "???" },
+      { "subject": "Inis", "location": "Unknown", "observer": "???" }
+    ],
+    "characters": [null]
+  },
+  "chapter-17.md": {
+    "name": "chapter-17.md",
+    "title": " Vigilance",
+    "segments": [
+      {
+        "subject": "Mille",
+        "location": "Maliscade - The Blightbane Guild",
+        "observer": "???"
+      }
+    ],
+    "characters": [null]
+  },
+  "chapter-18.md": {
+    "name": "chapter-18.md",
+    "title": " Tether Transit",
+    "segments": [
+      {
+        "subject": "Caim",
+        "location": "Maliscade - The Blightbane Guild",
+        "observer": "???"
+      },
+      {
+        "subject": "Caim",
+        "location": "Maliscade - Tether Transit (Gate District)",
+        "observer": "???"
+      },
+      {
+        "subject": "Caim",
+        "location": "Maliscade - Tether Transit (Gate District)",
+        "observer": "???"
+      },
+      {
+        "subject": "Caim",
+        "location": "Maliscade - Tether Transit (Active)",
+        "observer": "???"
+      }
+    ],
+    "characters": [null]
+  },
+  "chapter-19.md": {
+    "name": "chapter-19.md",
+    "title": " The Mage's Carapace",
+    "segments": [
+      {
+        "subject": "Caim",
+        "location": "Maliscade - Commerce District - Ashera's Attires",
+        "observer": "???"
+      },
+      {
+        "subject": "Caim",
+        "location": "Maliscade - Commerce District - Ashera's Attires",
+        "observer": "???"
+      },
+      {
+        "subject": "Caim",
+        "location": "Maliscade - Commerce District - Ashera's Attires",
+        "observer": "???"
+      },
+      {
+        "subject": "Caim",
+        "location": "Maliscade - Commerce District - Ashera's Attires",
+        "observer": "???"
+      },
+      {
+        "subject": "Caim",
+        "location": "Maliscade - Commerce District",
+        "observer": "???"
+      }
+    ],
+    "characters": [null]
+  },
+  "chapter-20.md": {
+    "name": "chapter-20.md",
+    "title": " Genuine Deceiver",
+    "segments": [
+      {
+        "subject": "Caim",
+        "location": "Maliscade - Gate District",
+        "observer": "???"
+      },
+      {
+        "subject": "Mille",
+        "location": "Maliscade - The Blightbane Guild",
+        "observer": "???"
+      },
+      {
+        "subject": "Caim",
+        "location": "Maliscade - The Blightbane Guild",
+        "observer": "???"
+      },
+      {
+        "subject": "Mille",
+        "location": "Maliscade - The Blightbane Guild",
+        "observer": "???"
+      },
+      {
+        "subject": "Caim",
+        "location": "Maliscade - The Blightbane Guild",
+        "observer": "???"
+      }
+    ],
+    "characters": [null]
+  },
+  "chapter-21.md": {
+    "name": "chapter-21.md",
+    "title": " Forging Friendships",
+    "segments": [
+      {
+        "subject": "Caim",
+        "location": "Maliscade - Gate District",
+        "observer": "???"
+      },
+      {
+        "subject": "Caim",
+        "location": "Maliscade - Gate District",
+        "observer": "???"
+      },
+      {
+        "subject": "Mille",
+        "location": "Maliscade - The Blightbane Guild",
+        "observer": "???"
+      }
+    ],
+    "characters": [null]
+  },
+  "chapter-22.md": {
+    "name": "chapter-22.md",
+    "title": " Initiation",
+    "segments": [
+      {
+        "subject": "Mille",
+        "location": "Maliscade - The Blightbane Guild",
+        "observer": "???"
+      },
+      {
+        "subject": "Alice",
+        "location": "Maliscade - The Blightbane Guild",
+        "observer": "???"
+      },
+      {
+        "subject": "Mille",
+        "location": "Maliscade - The Blightbane Guild",
+        "observer": "???"
+      },
+      {
+        "subject": "Alice",
+        "location": "Maliscade - The Blightbane Guild",
+        "observer": "???"
+      },
+      {
+        "subject": "Caim",
+        "location": "Maliscade - The Blightbane Guild",
+        "observer": "???"
+      }
+    ],
+    "characters": [null]
+  },
+  "chapter-23.md": {
+    "name": "chapter-23.md",
+    "title": " Arla's Forge",
+    "segments": [
+      {
+        "subject": "Caim",
+        "location": "Maliscade - The Blightbane Guild",
+        "observer": "???"
+      },
+      {
+        "subject": "Caim",
+        "location": "Maliscade - The Blightbane Guild",
+        "observer": "???"
+      },
+      {
+        "subject": "Caim",
+        "location": "Maliscade - The Blightbane Guild",
+        "observer": "???"
+      },
+      {
+        "subject": "Caim",
+        "location": "Maliscade - The Blightbane Guild",
+        "observer": "???"
+      },
+      {
+        "subject": "Caim",
+        "location": "Maliscade - The Blightbane Guild",
+        "observer": "???"
+      },
+      {
+        "subject": "Caim",
+        "location": "Maliscade - The Blightbane Guild",
+        "observer": "???"
+      }
+    ],
+    "characters": [null]
+  },
+  "chapter-24.md": {
+    "name": "chapter-24.md",
+    "title": " Riventread",
+    "segments": [
+      { "subject": "Caim", "location": "Riventread", "observer": "???" },
+      { "subject": "Caim", "location": "Riventread", "observer": "???" }
+    ],
+    "characters": [null]
+  },
+  "chapter-25.md": {
+    "name": "chapter-25.md",
+    "title": " Cocoon",
+    "segments": [
+      {
+        "subject": "Unknown",
+        "location": "Redtinge Overgrowth",
+        "observer": "???"
+      },
+      {
+        "subject": "Inis - [Requesting Reanalysis]",
+        "location": "Redtinge Overgrowth",
+        "observer": "???"
+      },
+      {
+        "subject": "Inis - [Requesting Reanalysis]",
+        "location": "Redtinge Overgrowth",
+        "observer": "???"
+      },
+      {
+        "subject": "Inis - [Requesting Reanalysis]",
+        "location": "Redtinge Overgrowth",
+        "observer": "???"
+      },
+      {
+        "subject": "Inis - [Requesting Reanalysis]",
+        "location": "Redtinge Overgrowth",
+        "observer": "???"
+      }
+    ],
+    "characters": [null]
+  },
+  "chapter-26.md": {
+    "name": "chapter-26.md",
+    "title": " Seeker Solidarity",
+    "segments": [
+      { "subject": "Caim", "location": "Riventread", "observer": "???" },
+      { "subject": "Seru", "location": "Riventread", "observer": "???" },
+      { "subject": "Caim", "location": "Riventread", "observer": "???" },
+      { "subject": "Caim", "location": "Riventread", "observer": "???" }
+    ],
+    "characters": [null]
+  },
+  "chapter-27.md": {
+    "name": "chapter-27.md",
+    "title": " Catalyst",
+    "segments": [
+      { "subject": "Caim", "location": "Riventread", "observer": "???" },
+      { "subject": "Caim", "location": "Riventread", "observer": "???" },
+      { "subject": "Caim", "location": "Riventread", "observer": "???" },
+      { "subject": "Caim", "location": "Sorus Valley", "observer": "???" }
+    ],
+    "characters": [null]
+  },
+  "chapter-28.md": {
+    "name": "chapter-28.md",
+    "title": " The Unlucky Artisan",
+    "segments": [
+      { "subject": "Caim", "location": "Sorus Valley", "observer": "???" },
+      { "subject": "Caim", "location": "Sorus Valley", "observer": "???" },
+      { "subject": "Caim", "location": "Sorus Valley", "observer": "???" }
+    ],
+    "characters": [null]
+  },
+  "chapter-29.md": {
+    "name": "chapter-29.md",
+    "title": " The Seeds of Profit",
+    "segments": [
+      {
+        "subject": "Gwen",
+        "location": "Maliscade - Gate District",
+        "observer": "???"
+      },
+      {
+        "subject": "Caim",
+        "location": "Maliscade - Gate District",
+        "observer": "???"
+      }
+    ],
+    "characters": [null]
+  },
+  "chapter-30.md": {
+    "name": "chapter-30.md",
+    "title": " The Idle Botanist",
+    "segments": [
+      {
+        "subject": "Caim",
+        "location": "Maliscade - Gate District - Protoflora: Envisioned Ecosystems",
+        "observer": "???"
+      },
+      {
+        "subject": "Caim",
+        "location": "Maliscade - Gate District - Protoflora: Envisioned Ecosystems",
+        "observer": "???"
+      },
+      {
+        "subject": "Caim",
+        "location": "Maliscade - Gate District - Protoflora: Envisioned Ecosystems",
+        "observer": "???"
+      }
+    ],
+    "characters": [null]
+  },
+  "chapter-31.md": {
+    "name": "chapter-31.md",
+    "title": " Vision",
+    "segments": [
+      {
+        "subject": "Caim",
+        "location": "Maliscade - Gate District - Protoflora: Envisioned Ecosystems",
+        "observer": "???"
+      },
+      {
+        "subject": "Caim",
+        "location": "Maliscade - Gate District - Protoflora: Envisioned Ecosystems",
+        "observer": "???"
+      },
+      {
+        "subject": "Caim",
+        "location": "Maliscade - Gate District - Protoflora: Envisioned Ecosystems",
+        "observer": "???"
+      }
+    ],
+    "characters": [null]
+  },
+  "chapter-32.md": {
+    "name": "chapter-32.md",
+    "title": " Mutualism",
+    "segments": [
+      {
+        "subject": "Inis - [Requesting Reanalysis]",
+        "location": "Redtinge Overgrowth",
+        "observer": "???"
+      },
+      {
+        "subject": "Inis - [Requesting Reanalysis]",
+        "location": "Redtinge Overgrowth",
+        "observer": "???"
+      },
+      {
+        "subject": "Inis - [Requesting Reanalysis]",
+        "location": "Redtinge Overgrowth",
+        "observer": "???"
+      }
+    ],
+    "characters": [null]
+  },
+  "chapter-33.md": {
+    "name": "chapter-33.md",
+    "title": " Devourer",
+    "segments": [
+      {
+        "subject": "Inis - [Requesting Reanalysis]",
+        "location": "Redtinge Overgrowth",
+        "observer": "???"
+      },
+      {
+        "subject": "Inis - [Requesting Reanalysis]",
+        "location": "Redtinge Overgrowth",
+        "observer": "???"
+      },
+      {
+        "subject": "Inis - [Requesting Reanalysis]",
+        "location": "Redtinge Overgrowth",
+        "observer": "???"
+      },
+      {
+        "subject": "Inis - [Requesting Reanalysis]",
+        "location": "Redtinge Overgrowth",
+        "observer": "???"
+      }
+    ],
+    "characters": [null]
+  },
+  "chapter-34.md": {
+    "name": "chapter-34.md",
+    "title": " Metacognition",
+    "segments": [
+      {
+        "subject": "Inis - [Requesting Reanalysis]",
+        "location": "Redtinge Overgrowth",
+        "observer": "???"
+      },
+      {
+        "subject": "Inis - [Requesting Reanalysis]",
+        "location": "Redtinge Overgrowth",
+        "observer": "???"
+      },
+      {
+        "subject": "Inis - [Requesting Reanalysis]",
+        "location": "Redtinge Overgrowth",
+        "observer": "???"
+      },
+      { "subject": "Metis", "location": "???", "observer": "???" }
+    ],
+    "characters": [null]
+  },
+  "chapter-35.md": {
+    "name": "chapter-35.md",
+    "title": " Hunger",
+    "segments": [
+      {
+        "subject": "Inis - [Requesting Reanalysis]",
+        "location": "Redtinge Overgrowth",
+        "observer": "???"
+      }
+    ],
+    "characters": [null]
+  },
+  "chapter-36.md": {
+    "name": "chapter-36.md",
+    "title": " Forgotten Contract",
+    "segments": [
+      {
+        "subject": "Sonia",
+        "location": "Redtinge Overgrowth",
+        "observer": "???"
+      },
+      {
+        "subject": "Inis",
+        "location": "Redtinge Overgrowth",
+        "observer": "???"
+      }
+    ],
+    "characters": [null]
+  },
+  "chapter-37.md": {
+    "name": "chapter-37.md",
+    "title": " Disconnect",
+    "segments": [
+      {
+        "subject": "Caim",
+        "location": "Maliscade - Blightbane Guild",
+        "observer": "???"
+      },
+      {
+        "subject": "Caim",
+        "location": "Maliscade - Blightbane Guild",
+        "observer": "???"
+      },
+      {
+        "subject": "Caim",
+        "location": "Riventread - Outskirts",
+        "observer": "???"
+      },
+      {
+        "subject": "Caim",
+        "location": "Maliscade - Blightbane Guild",
+        "observer": "???"
+      }
+    ],
+    "characters": [null]
+  },
+  "chapter-38.md": {
+    "name": "chapter-38.md",
+    "title": " Lantern",
+    "segments": [
+      {
+        "subject": "Caim",
+        "location": "Riventread - Outskirts Layer",
+        "observer": "???"
+      },
+      {
+        "subject": "Caim",
+        "location": "Riventread - Outskirts Layer",
+        "observer": "???"
+      }
+    ],
+    "characters": [null]
+  },
+  "chapter-39.md": {
+    "name": "chapter-39.md",
+    "title": " The Weight of the Guild",
+    "segments": [
+      {
+        "subject": "Mille",
+        "location": "Maliscade - Blightbane Guild",
+        "observer": "???"
+      },
+      {
+        "subject": "Mille",
+        "location": "Maliscade - Blightbane Guild",
+        "observer": "???"
+      }
+    ],
+    "characters": [null]
+  },
+  "chapter-40.md": {
+    "name": "chapter-40.md",
+    "title": " Progress Check",
+    "segments": [
+      {
+        "subject": "Caim",
+        "location": "Maliscade - Blightbane Guild",
+        "observer": "???"
+      },
+      { "subject": "Metis", "location": "???", "observer": "???" }
+    ],
+    "characters": [null]
+  },
+  "chapter-41.md": {
+    "name": "chapter-41.md",
+    "title": " Repetition",
+    "segments": [
+      {
+        "subject": "Caim",
+        "location": "Maliscade - Blightbane Guild",
+        "observer": "???"
+      },
+      {
+        "subject": "Caim",
+        "location": "Maliscade - Blightbane Guild",
+        "observer": "???"
+      }
+    ],
+    "characters": [null]
+  },
+  "chapter-42.md": {
+    "name": "chapter-42.md",
+    "title": " Magitech Secrets",
+    "segments": [
+      {
+        "subject": "Mille",
+        "location": "Maliscade - Blightbane Guild",
+        "observer": "???"
+      },
+      {
+        "subject": "Caim",
+        "location": "Maliscade - Blightbane Guild",
+        "observer": "???"
+      },
+      {
+        "subject": "Caim",
+        "location": "Maliscade - Blightbane Guild",
+        "observer": "???"
+      }
+    ],
+    "characters": [null]
+  },
+  "chapter-43.md": {
+    "name": "chapter-43.md",
+    "title": " The Welders",
+    "segments": [
+      {
+        "subject": "Caim",
+        "location": "Maliscade - Blightbane Guild",
+        "observer": "???"
+      },
+      {
+        "subject": "Caim",
+        "location": "Maliscade - Blightbane Guild",
+        "observer": "???"
+      }
+    ],
+    "characters": [null]
+  },
+  "chapter-44.md": {
+    "name": "chapter-44.md",
+    "title": " Entering Lockdown",
+    "segments": [
+      {
+        "subject": "Aiden",
+        "location": "Maliscade - Commerce District",
+        "observer": "???"
+      },
+      {
+        "subject": "Caim",
+        "location": "Maliscade - Blightbane Guild",
+        "observer": "???"
+      },
+      {
+        "subject": "Gillis",
+        "location": "Maliscade - Gate District",
+        "observer": "???"
+      }
+    ],
+    "characters": [null]
+  },
+  "chapter-45.md": {
+    "name": "chapter-45.md",
+    "title": " Safeguard Catalyst",
+    "segments": [
+      {
+        "subject": "Caim",
+        "location": "Maliscade - Blightbane Guild",
+        "observer": "???"
+      },
+      {
+        "subject": "Caim",
+        "location": "Maliscade - Blightbane Guild",
+        "observer": "???"
+      }
+    ],
+    "characters": [null]
   }
 }
