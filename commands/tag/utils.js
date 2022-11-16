@@ -1,4 +1,6 @@
 /* eslint-disable indent */
+import { getWordCount } from '../../utils/index.js';
+
 export const getSegments = (content) => content.split('---').slice(1);
 
 export const getSegmentData = (segment) => {
@@ -17,6 +19,7 @@ export const getSegmentData = (segment) => {
     subject,
     location,
     observer,
+    words: getWordCount(segment),
   };
   return segmentData;
 };

@@ -7,7 +7,7 @@ export const getSegmentSubjectData = (segment) => {
   const subjectWords = getSubjectWords();
   const subjectData = {};
 
-  for (const word in subjectWords) {
+  for (const word of subjectWords) {
     if (segment.includes(word)) {
       const data = subjectMap[word];
 
@@ -36,7 +36,7 @@ export const getSegmentSubjectData = (segment) => {
 export const getSubjectMap = () => {
   const subjectMap = {};
 
-  for (const subject in SUBJECTS) {
+  for (const subject of SUBJECTS) {
     subject.categories.forEach((category) => {
       category.elements.forEach((element) => {
         subjectMap[element] = {
@@ -50,4 +50,4 @@ export const getSubjectMap = () => {
   return subjectMap;
 };
 
-export const getSubjectWords = () => Object(getSubjectMap()).keys();
+export const getSubjectWords = () => Object.keys(getSubjectMap());

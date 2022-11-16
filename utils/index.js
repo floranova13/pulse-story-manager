@@ -10,5 +10,16 @@ export const getFileNameBase = (filePath) => {
 };
 
 export const replaceStyledQuotes = (text) => {
-  return text.replace(/“/g, '"').replace(/”/g, '"').replace(/‘/g, "'").replace(/’/g, "'");
+  return text.replace(/[“”]/g, '"').replace(/[‘’]/g, "'");
 };
+
+export const trimText = (text) =>
+  text
+    .split('\r\n')
+    .map((line) => line.trim())
+    .join('\r\n');
+
+export const fixText = (text) => trimText(replaceStyledQuotes(text));
+
+export const getWordCount = (text) =>
+  text.split(' ').filter((word) => word.replace(/\s/), '').length;

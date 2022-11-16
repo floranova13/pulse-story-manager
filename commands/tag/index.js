@@ -36,17 +36,19 @@ export const setAllChapterData = () => {
 };
 
 export const getCurrentChapterData = (chapterInfo) => {
-  const chapterSegments = getSegments(chapterInfo.contents);
+  const { title, words, contents } = chapterInfo;
+  const chapterSegments = getSegments(contents);
   const name = getFileName(chapterInfo.name);
   const chapterData = {
     name,
-    title: chapterInfo.title,
-    segments: chapterSegments.map((segment) => getSegmentData(segment)),
+    title,
+    words,
+    segments: chapterSegments.map((segment) => getCurrentSegmentData(segment)),
   };
-  console.log(chapterInfo.title);
+  console.log(title);
 
   chapterData.characters = _.uniq(
-    chapterData.segments.map((segment) => segment.characters)
+    _.flatten(chapterData.segments.map((segment) => segment.characters))
   );
 
   return chapterData;

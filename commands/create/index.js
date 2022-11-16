@@ -1,8 +1,9 @@
 /* eslint-disable indent */
 import { google } from 'googleapis';
 import fs from 'fs';
-import { getFolderId } from './utils.js';
 import path from 'path';
+import { getFolderId } from './utils.js';
+import { fixText } from '../../utils/index.js';
 
 /**
  * Create file in Google Drive
@@ -60,4 +61,25 @@ const createChapterFiles = () => {
   }
 };
 
-export default { createFile, uploadChapters, createChapterFiles };
+const clearChapterFiles = () => {
+  const currentChaptersPath = process.env.CHAPTERS_CURRENT_PATH;
+
+  fs.readdirSync(currentChaptersPath).forEach((file) => {
+    if (
+      ['.md', 'txt'].includes(path.extname(file)) &&
+      file.includes('chapter-')
+    ) {
+      const chapterPath = path.join(currentChaptersPath, file);
+      const content = fs.readFileSync(chapterPath, 'utf8');
+
+      fs.writeFileSync(chapterPath, fixText(content));
+    }
+  });
+};
+
+export default {
+  createFile,
+  uploadChapters,
+  createChapterFiles,
+  clearChapterFiles,
+};

@@ -2,812 +2,1571 @@
   "chapter-1.md": {
     "name": "chapter-1.md",
     "title": " Entry",
+    "words": 3034,
     "segments": [
-      { "subject": "Caim", "location": "Unknown", "observer": "???" },
-      { "subject": "Caim", "location": "Unknown", "observer": "???" },
-      { "subject": "Caim", "location": "Unknown", "observer": "???" }
+      {
+        "subject": "Caim",
+        "location": "Unknown",
+        "observer": "???",
+        "words": 661,
+        "characters": ["Caim", "Mille"],
+        "subjects": {
+          "combat equipment": {
+            "weapons": ["axe", "blade"],
+            "accessories": ["ring"]
+          }
+        }
+      },
+      {
+        "subject": "Caim",
+        "location": "Unknown",
+        "observer": "???",
+        "words": 827,
+        "characters": ["Caim"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
+      },
+      {
+        "subject": "Caim",
+        "location": "Unknown",
+        "observer": "???",
+        "words": 1545,
+        "characters": ["Caim"],
+        "subjects": {
+          "combat equipment": {
+            "weapons": ["blade"],
+            "armor": ["boots"],
+            "accessories": ["ring"]
+          }
+        }
+      }
     ],
-    "characters": [null]
+    "characters": ["Caim", "Mille"]
   },
   "chapter-2.md": {
     "name": "chapter-2.md",
     "title": " Alice, The Blight Seeker",
+    "words": 3565,
     "segments": [
-      { "subject": "Caim", "location": "Shimmerden", "observer": "???" },
-      { "subject": "Caim", "location": "Shimmerden", "observer": "???" },
-      { "subject": "Caim", "location": "Shimmerden", "observer": "???" }
+      {
+        "subject": "Caim",
+        "location": "Shimmerden",
+        "observer": "???",
+        "words": 1879,
+        "characters": ["Caim", "Mille"],
+        "subjects": {
+          "combat equipment": { "armor": ["boots"], "accessories": ["ring"] }
+        }
+      },
+      {
+        "subject": "Caim",
+        "location": "Shimmerden",
+        "observer": "???",
+        "words": 565,
+        "characters": ["Caim"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
+      },
+      {
+        "subject": "Caim",
+        "location": "Shimmerden",
+        "observer": "???",
+        "words": 1117,
+        "characters": ["Caim", "Mille"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
+      }
     ],
-    "characters": [null]
+    "characters": ["Caim", "Mille"]
   },
   "chapter-3.md": {
     "name": "chapter-3.md",
     "title": " Maliscade, The Bastion City",
+    "words": 4910,
     "segments": [
-      { "subject": "Caim", "location": "Sorus Valley", "observer": "???" },
-      { "subject": "Caim", "location": "Sorus Valley", "observer": "???" },
-      { "subject": "Caim", "location": "Sorus Valley", "observer": "???" },
-      { "subject": "Caim", "location": "Sorus Valley", "observer": "???" }
+      {
+        "subject": "Caim",
+        "location": "Sorus Valley",
+        "observer": "???",
+        "words": 1072,
+        "characters": ["Caim", "Mille"],
+        "subjects": {
+          "combat equipment": {
+            "weapons": ["blade"],
+            "armor": ["plate armor"],
+            "accessories": ["ring"]
+          }
+        }
+      },
+      {
+        "subject": "Caim",
+        "location": "Sorus Valley",
+        "observer": "???",
+        "words": 815,
+        "characters": ["Caim"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
+      },
+      {
+        "subject": "Caim",
+        "location": "Sorus Valley",
+        "observer": "???",
+        "words": 472,
+        "characters": ["Caim"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
+      },
+      {
+        "subject": "Caim",
+        "location": "Sorus Valley",
+        "observer": "???",
+        "words": 2548,
+        "characters": ["Caim", "Mille"],
+        "subjects": {
+          "combat equipment": {
+            "weapons": ["axe", "blade"],
+            "armor": ["helmet"],
+            "accessories": ["ring", "necklace"]
+          }
+        }
+      }
     ],
-    "characters": [null]
+    "characters": ["Caim", "Mille"]
   },
   "chapter-4.md": {
     "name": "chapter-4.md",
     "title": " The Scientist",
+    "words": 1919,
     "segments": [
-      { "subject": "Inis", "location": "Moss Crescent", "observer": "???" },
-      { "subject": "Inis", "location": "Moss Crescent", "observer": "???" }
+      {
+        "subject": "Inis",
+        "location": "Moss Crescent",
+        "observer": "???",
+        "words": 1054,
+        "characters": ["Inis"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
+      },
+      {
+        "subject": "Inis",
+        "location": "Moss Crescent",
+        "observer": "???",
+        "words": 862,
+        "characters": ["Inis"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
+      }
     ],
-    "characters": [null]
+    "characters": ["Inis"]
   },
   "chapter-5.md": {
     "name": "chapter-5.md",
     "title": " A Solflame's Embrace",
+    "words": 1413,
     "segments": [
-      { "subject": "Inis", "location": "Moss Crescent", "observer": "???" },
-      { "subject": "Inis", "location": "Moss Crescent", "observer": "???" }
+      {
+        "subject": "Inis",
+        "location": "Moss Crescent",
+        "observer": "???",
+        "words": 928,
+        "characters": ["Inis"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
+      },
+      {
+        "subject": "Inis",
+        "location": "Moss Crescent",
+        "observer": "???",
+        "words": 481,
+        "characters": ["Inis"],
+        "subjects": {
+          "combat equipment": { "weapons": ["staff"], "armor": ["boots"] }
+        }
+      }
     ],
-    "characters": [null]
+    "characters": ["Inis"]
   },
   "chapter-6.md": {
     "name": "chapter-6.md",
     "title": " Template Cities",
+    "words": 2862,
     "segments": [
-      { "subject": "Caim", "location": "Maliscade", "observer": "???" }
+      {
+        "subject": "Caim",
+        "location": "Maliscade",
+        "observer": "???",
+        "words": 2858,
+        "characters": ["Caim", "Mille"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
+      }
     ],
-    "characters": [null]
+    "characters": ["Caim", "Mille"]
   },
   "chapter-7.md": {
     "name": "chapter-7.md",
     "title": " The Stranger of Truth",
+    "words": 4400,
     "segments": [
       {
         "subject": "Caim",
         "location": "Maliscade - Gate District",
-        "observer": "???"
+        "observer": "???",
+        "words": 2242,
+        "characters": ["Caim"],
+        "subjects": {
+          "combat equipment": {
+            "armor": ["helmet", "plate armor"],
+            "accessories": ["ring"]
+          }
+        }
       },
       {
         "subject": "Caim",
         "location": "Maliscade - Arbe's Shrine (Gate District)",
-        "observer": "???"
+        "observer": "???",
+        "words": 987,
+        "characters": ["Caim", "Mille"],
+        "subjects": {
+          "combat equipment": { "accessories": ["ring", "pendant"] }
+        }
       },
       {
         "subject": "Caim",
         "location": "Maliscade - Arbe's Shrine (Gate District)",
-        "observer": "???"
+        "observer": "???",
+        "words": 1167,
+        "characters": ["Caim", "Mille"],
+        "subjects": {
+          "combat equipment": { "weapons": ["blade"], "accessories": ["ring"] }
+        }
       }
     ],
-    "characters": [null]
+    "characters": ["Caim", "Mille"]
   },
   "chapter-8.md": {
     "name": "chapter-8.md",
     "title": " The Blightbane Guild",
+    "words": 3471,
     "segments": [
       {
         "subject": "Caim",
         "location": "Maliscade - The Blightbane Guild",
-        "observer": "???"
+        "observer": "???",
+        "words": 2416,
+        "characters": ["Caim", "Mille"],
+        "subjects": {
+          "combat equipment": {
+            "weapons": ["axe", "bow", "staff", "blade"],
+            "armor": ["boots"],
+            "accessories": ["ring"]
+          }
+        }
       },
       {
         "subject": "Caim",
         "location": "Maliscade - The Blightbane Guild",
-        "observer": "???"
+        "observer": "???",
+        "words": 1051,
+        "characters": ["Caim", "Mille"],
+        "subjects": {
+          "combat equipment": { "weapons": ["bow"], "accessories": ["ring"] }
+        }
       }
     ],
-    "characters": [null]
+    "characters": ["Caim", "Mille"]
   },
   "chapter-9.md": {
     "name": "chapter-9.md",
     "title": " Wilderness Camp",
+    "words": 2312,
     "segments": [
-      { "subject": "Inis", "location": "Absence Woodland", "observer": "???" },
-      { "subject": "Inis", "location": "Absence Woodland", "observer": "???" },
-      { "subject": "Inis", "location": "Absence Woodland", "observer": "???" }
+      {
+        "subject": "Inis",
+        "location": "Absence Woodland",
+        "observer": "???",
+        "words": 344,
+        "characters": ["Inis"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
+      },
+      {
+        "subject": "Inis",
+        "location": "Absence Woodland",
+        "observer": "???",
+        "words": 1117,
+        "characters": ["Inis"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
+      },
+      {
+        "subject": "Inis",
+        "location": "Absence Woodland",
+        "observer": "???",
+        "words": 849,
+        "characters": ["Inis"],
+        "subjects": { "combat equipment": { "weapons": ["axe"] } }
+      }
     ],
-    "characters": [null]
+    "characters": ["Inis"]
   },
   "chapter-10.md": {
     "name": "chapter-10.md",
     "title": " Patience",
+    "words": 2841,
     "segments": [
-      { "subject": "Inis", "location": "Absence Woodland", "observer": "???" },
-      { "subject": "Inis", "location": "Absence Woodland", "observer": "???" },
-      { "subject": "Inis", "location": "Absence Woodland", "observer": "???" }
+      {
+        "subject": "Inis",
+        "location": "Absence Woodland",
+        "observer": "???",
+        "words": 1745,
+        "characters": ["Inis"],
+        "subjects": {
+          "combat equipment": { "weapons": ["bow"], "accessories": ["ring"] }
+        }
+      },
+      {
+        "subject": "Inis",
+        "location": "Absence Woodland",
+        "observer": "???",
+        "words": 294,
+        "characters": ["Inis"],
+        "subjects": {}
+      },
+      {
+        "subject": "Inis",
+        "location": "Absence Woodland",
+        "observer": "???",
+        "words": 801,
+        "characters": ["Inis"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
+      }
     ],
-    "characters": [null]
+    "characters": ["Inis"]
   },
   "chapter-11.md": {
     "name": "chapter-11.md",
     "title": " The Keepers",
+    "words": 2665,
     "segments": [
       {
         "subject": "Keeper Virgil",
         "location": "Laberin - The Gravegreen Bar",
-        "observer": "???"
+        "observer": "???",
+        "words": 1635,
+        "characters": [],
+        "subjects": {
+          "combat equipment": { "weapons": ["blade"], "accessories": ["ring"] }
+        }
       },
       {
         "subject": "Keeper Virgil",
         "location": "Laberin - The Gravegreen Bar",
-        "observer": "???"
+        "observer": "???",
+        "words": 1027,
+        "characters": [],
+        "subjects": { "combat equipment": { "weapons": ["bow", "staff"] } }
       }
     ],
-    "characters": [null]
+    "characters": []
   },
   "chapter-12.md": {
     "name": "chapter-12.md",
     "title": " Galar, Hexaline Knight of Mercy",
+    "words": 2846,
     "segments": [
       {
         "subject": "Keeper Virgil",
         "location": "Laberin - The Gravegreen Bar",
-        "observer": "???"
+        "observer": "???",
+        "words": 322,
+        "characters": [],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
       },
       {
         "subject": "Keeper Virgil",
         "location": "Laberin - The Gravegreen Bar",
-        "observer": "???"
+        "observer": "???",
+        "words": 1340,
+        "characters": [],
+        "subjects": {
+          "combat equipment": {
+            "weapons": ["axe", "bow", "staff", "blade"],
+            "accessories": ["ring", "charm"]
+          }
+        }
       },
       {
         "subject": "Keeper Virgil",
         "location": "Laberin - The Gravegreen Bar",
-        "observer": "???"
+        "observer": "???",
+        "words": 1179,
+        "characters": [],
+        "subjects": {
+          "combat equipment": {
+            "weapons": ["sword", "bow", "staff", "dagger", "blade"],
+            "accessories": ["ring"]
+          }
+        }
       }
     ],
-    "characters": [null]
+    "characters": []
   },
   "chapter-13.md": {
     "name": "chapter-13.md",
     "title": " Forgiven in Death (Conditional Forgiveness)",
+    "words": 2312,
     "segments": [
       {
         "subject": "Keeper Virgil",
         "location": "Laberin - The Gravegreen Bar",
-        "observer": "???"
+        "observer": "???",
+        "words": 822,
+        "characters": [],
+        "subjects": {
+          "combat equipment": {
+            "weapons": ["staff", "blade"],
+            "accessories": ["ring"]
+          }
+        }
       },
       {
         "subject": "Keeper Virgil",
         "location": "Laberin - The Gravegreen Bar",
-        "observer": "???"
+        "observer": "???",
+        "words": 930,
+        "characters": [],
+        "subjects": {
+          "combat equipment": { "weapons": ["staff"], "accessories": ["ring"] }
+        }
       },
       {
         "subject": "Keeper Virgil",
         "location": "Laberin - The Gravegreen Bar",
-        "observer": "???"
+        "observer": "???",
+        "words": 555,
+        "characters": [],
+        "subjects": {
+          "combat equipment": { "weapons": ["staff"], "accessories": ["ring"] }
+        }
       }
     ],
-    "characters": [null]
+    "characters": []
   },
   "chapter-14.md": {
     "name": "chapter-14.md",
     "title": " The First Dose",
+    "words": 1505,
     "segments": [
-      { "subject": "Inis", "location": "Absence Woodland", "observer": "???" },
-      { "subject": "Inis", "location": "Absence Woodland", "observer": "???" }
+      {
+        "subject": "Inis",
+        "location": "Absence Woodland",
+        "observer": "???",
+        "words": 598,
+        "characters": ["Inis"],
+        "subjects": {}
+      },
+      {
+        "subject": "Inis",
+        "location": "Absence Woodland",
+        "observer": "???",
+        "words": 903,
+        "characters": ["Inis"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
+      }
     ],
-    "characters": [null]
+    "characters": ["Inis"]
   },
   "chapter-15.md": {
     "name": "chapter-15.md",
     "title": " A Concerned Friend",
+    "words": 3617,
     "segments": [
       {
         "subject": "Caim",
         "location": "Maliscade - The Blightbane Guild",
-        "observer": "???"
+        "observer": "???",
+        "words": 2582,
+        "characters": ["Caim", "Mille"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
       },
       {
         "subject": "Caim",
         "location": "Maliscade - The Blightbane Guild",
-        "observer": "???"
+        "observer": "???",
+        "words": 1031,
+        "characters": ["Caim", "Mille"],
+        "subjects": {
+          "combat equipment": { "weapons": ["staff"], "accessories": ["ring"] }
+        }
       }
     ],
-    "characters": [null]
+    "characters": ["Caim", "Mille"]
   },
   "chapter-16.md": {
     "name": "chapter-16.md",
     "title": " Power Without a Price",
+    "words": 2025,
     "segments": [
-      { "subject": "Inis", "location": "Unknown", "observer": "???" },
-      { "subject": "Inis", "location": "Unknown", "observer": "???" },
-      { "subject": "Inis", "location": "Unknown", "observer": "???" }
+      {
+        "subject": "Inis",
+        "location": "Unknown",
+        "observer": "???",
+        "words": 498,
+        "characters": ["Inis"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
+      },
+      {
+        "subject": "Inis",
+        "location": "Unknown",
+        "observer": "???",
+        "words": 471,
+        "characters": ["Inis"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
+      },
+      {
+        "subject": "Inis",
+        "location": "Unknown",
+        "observer": "???",
+        "words": 1052,
+        "characters": ["Inis"],
+        "subjects": {
+          "combat equipment": { "weapons": ["axe"], "accessories": ["ring"] }
+        }
+      }
     ],
-    "characters": [null]
+    "characters": ["Inis"]
   },
   "chapter-17.md": {
     "name": "chapter-17.md",
     "title": " Vigilance",
+    "words": 1678,
     "segments": [
       {
         "subject": "Mille",
         "location": "Maliscade - The Blightbane Guild",
-        "observer": "???"
+        "observer": "???",
+        "words": 1675,
+        "characters": ["Caim", "Mille"],
+        "subjects": {
+          "combat equipment": { "weapons": ["staff"], "accessories": ["ring"] }
+        }
       }
     ],
-    "characters": [null]
+    "characters": ["Caim", "Mille"]
   },
   "chapter-18.md": {
     "name": "chapter-18.md",
     "title": " Tether Transit",
+    "words": 2840,
     "segments": [
       {
         "subject": "Caim",
         "location": "Maliscade - The Blightbane Guild",
-        "observer": "???"
+        "observer": "???",
+        "words": 167,
+        "characters": ["Caim", "Mille"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
       },
       {
         "subject": "Caim",
         "location": "Maliscade - Tether Transit (Gate District)",
-        "observer": "???"
+        "observer": "???",
+        "words": 589,
+        "characters": ["Caim", "Mille"],
+        "subjects": {
+          "combat equipment": { "weapons": ["bow"], "accessories": ["ring"] }
+        }
       },
       {
         "subject": "Caim",
         "location": "Maliscade - Tether Transit (Gate District)",
-        "observer": "???"
+        "observer": "???",
+        "words": 1264,
+        "characters": ["Caim", "Mille"],
+        "subjects": { "combat equipment": { "accessories": ["ring", "charm"] } }
       },
       {
         "subject": "Caim",
         "location": "Maliscade - Tether Transit (Active)",
-        "observer": "???"
+        "observer": "???",
+        "words": 819,
+        "characters": ["Caim", "Mille"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
       }
     ],
-    "characters": [null]
+    "characters": ["Caim", "Mille"]
   },
   "chapter-19.md": {
     "name": "chapter-19.md",
     "title": " The Mage's Carapace",
+    "words": 4377,
     "segments": [
       {
         "subject": "Caim",
         "location": "Maliscade - Commerce District - Ashera's Attires",
-        "observer": "???"
+        "observer": "???",
+        "words": 883,
+        "characters": ["Caim", "Mille"],
+        "subjects": {
+          "combat equipment": { "weapons": ["bow"], "accessories": ["ring"] }
+        }
       },
       {
         "subject": "Caim",
         "location": "Maliscade - Commerce District - Ashera's Attires",
-        "observer": "???"
+        "observer": "???",
+        "words": 1007,
+        "characters": ["Caim", "Mille"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
       },
       {
         "subject": "Caim",
         "location": "Maliscade - Commerce District - Ashera's Attires",
-        "observer": "???"
+        "observer": "???",
+        "words": 674,
+        "characters": ["Caim", "Mille"],
+        "subjects": {
+          "combat equipment": { "armor": ["boots"], "accessories": ["ring"] }
+        }
       },
       {
         "subject": "Caim",
         "location": "Maliscade - Commerce District - Ashera's Attires",
-        "observer": "???"
+        "observer": "???",
+        "words": 724,
+        "characters": ["Caim", "Mille"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
       },
       {
         "subject": "Caim",
         "location": "Maliscade - Commerce District",
-        "observer": "???"
+        "observer": "???",
+        "words": 1088,
+        "characters": ["Caim", "Mille"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
       }
     ],
-    "characters": [null]
+    "characters": ["Caim", "Mille"]
   },
   "chapter-20.md": {
     "name": "chapter-20.md",
     "title": " Genuine Deceiver",
+    "words": 2479,
     "segments": [
       {
         "subject": "Caim",
         "location": "Maliscade - Gate District",
-        "observer": "???"
+        "observer": "???",
+        "words": 732,
+        "characters": ["Caim", "Mille"],
+        "subjects": {}
       },
       {
         "subject": "Mille",
         "location": "Maliscade - The Blightbane Guild",
-        "observer": "???"
+        "observer": "???",
+        "words": 331,
+        "characters": ["Caim", "Mille"],
+        "subjects": {}
       },
       {
         "subject": "Caim",
         "location": "Maliscade - The Blightbane Guild",
-        "observer": "???"
+        "observer": "???",
+        "words": 411,
+        "characters": ["Caim", "Mille"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
       },
       {
         "subject": "Mille",
         "location": "Maliscade - The Blightbane Guild",
-        "observer": "???"
+        "observer": "???",
+        "words": 155,
+        "characters": ["Caim", "Mille"],
+        "subjects": {}
       },
       {
         "subject": "Caim",
         "location": "Maliscade - The Blightbane Guild",
-        "observer": "???"
+        "observer": "???",
+        "words": 850,
+        "characters": ["Caim", "Mille"],
+        "subjects": {}
       }
     ],
-    "characters": [null]
+    "characters": ["Caim", "Mille"]
   },
   "chapter-21.md": {
     "name": "chapter-21.md",
     "title": " Forging Friendships",
+    "words": 2316,
     "segments": [
       {
         "subject": "Caim",
         "location": "Maliscade - Gate District",
-        "observer": "???"
+        "observer": "???",
+        "words": 688,
+        "characters": ["Caim", "Mille"],
+        "subjects": {
+          "combat equipment": { "accessories": ["ring", "explosive"] }
+        }
       },
       {
         "subject": "Caim",
         "location": "Maliscade - Gate District",
-        "observer": "???"
+        "observer": "???",
+        "words": 825,
+        "characters": ["Caim", "Mille"],
+        "subjects": {
+          "combat equipment": {
+            "weapons": ["bow", "blade"],
+            "accessories": ["ring"]
+          }
+        }
       },
       {
         "subject": "Mille",
         "location": "Maliscade - The Blightbane Guild",
-        "observer": "???"
+        "observer": "???",
+        "words": 801,
+        "characters": ["Mille"],
+        "subjects": {
+          "combat equipment": { "armor": ["robe"], "accessories": ["ring"] }
+        }
       }
     ],
-    "characters": [null]
+    "characters": ["Caim", "Mille"]
   },
   "chapter-22.md": {
     "name": "chapter-22.md",
     "title": " Initiation",
+    "words": 4177,
     "segments": [
       {
         "subject": "Mille",
         "location": "Maliscade - The Blightbane Guild",
-        "observer": "???"
+        "observer": "???",
+        "words": 1066,
+        "characters": ["Caim", "Mille"],
+        "subjects": {
+          "combat equipment": { "weapons": ["staff"], "accessories": ["ring"] }
+        }
       },
       {
         "subject": "Alice",
         "location": "Maliscade - The Blightbane Guild",
-        "observer": "???"
+        "observer": "???",
+        "words": 945,
+        "characters": ["Caim", "Mille"],
+        "subjects": {
+          "combat equipment": { "weapons": ["blade"], "accessories": ["ring"] }
+        }
       },
       {
         "subject": "Mille",
         "location": "Maliscade - The Blightbane Guild",
-        "observer": "???"
+        "observer": "???",
+        "words": 580,
+        "characters": ["Caim", "Mille"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
       },
       {
         "subject": "Alice",
         "location": "Maliscade - The Blightbane Guild",
-        "observer": "???"
+        "observer": "???",
+        "words": 564,
+        "characters": ["Caim"],
+        "subjects": {
+          "combat equipment": { "weapons": ["blade"], "accessories": ["ring"] }
+        }
       },
       {
         "subject": "Caim",
         "location": "Maliscade - The Blightbane Guild",
-        "observer": "???"
+        "observer": "???",
+        "words": 1023,
+        "characters": ["Caim", "Mille"],
+        "subjects": {
+          "combat equipment": { "weapons": ["blade"], "accessories": ["ring"] }
+        }
       }
     ],
-    "characters": [null]
+    "characters": ["Caim", "Mille"]
   },
   "chapter-23.md": {
     "name": "chapter-23.md",
     "title": " Arla's Forge",
+    "words": 3037,
     "segments": [
       {
         "subject": "Caim",
         "location": "Maliscade - The Blightbane Guild",
-        "observer": "???"
+        "observer": "???",
+        "words": 618,
+        "characters": ["Caim", "Mille"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
       },
       {
         "subject": "Caim",
         "location": "Maliscade - The Blightbane Guild",
-        "observer": "???"
+        "observer": "???",
+        "words": 845,
+        "characters": ["Caim", "Mille"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
       },
       {
         "subject": "Caim",
         "location": "Maliscade - The Blightbane Guild",
-        "observer": "???"
+        "observer": "???",
+        "words": 787,
+        "characters": ["Caim", "Mille"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
       },
       {
         "subject": "Caim",
         "location": "Maliscade - The Blightbane Guild",
-        "observer": "???"
+        "observer": "???",
+        "words": 413,
+        "characters": ["Caim", "Mille"],
+        "subjects": { "combat equipment": { "weapons": ["blade"] } }
       },
       {
         "subject": "Caim",
         "location": "Maliscade - The Blightbane Guild",
-        "observer": "???"
+        "observer": "???",
+        "words": 256,
+        "characters": ["Caim", "Mille"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
       },
       {
         "subject": "Caim",
         "location": "Maliscade - The Blightbane Guild",
-        "observer": "???"
+        "observer": "???",
+        "words": 119,
+        "characters": ["Caim", "Mille"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
       }
     ],
-    "characters": [null]
+    "characters": ["Caim", "Mille"]
   },
   "chapter-24.md": {
     "name": "chapter-24.md",
     "title": " Riventread",
+    "words": 1065,
     "segments": [
-      { "subject": "Caim", "location": "Riventread", "observer": "???" },
-      { "subject": "Caim", "location": "Riventread", "observer": "???" }
+      {
+        "subject": "Caim",
+        "location": "Riventread",
+        "observer": "???",
+        "words": 767,
+        "characters": ["Caim"],
+        "subjects": {
+          "combat equipment": { "armor": ["boots"], "accessories": ["ring"] }
+        }
+      },
+      {
+        "subject": "Caim",
+        "location": "Riventread",
+        "observer": "???",
+        "words": 296,
+        "characters": ["Caim"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
+      }
     ],
-    "characters": [null]
+    "characters": ["Caim"]
   },
   "chapter-25.md": {
     "name": "chapter-25.md",
     "title": " Cocoon",
+    "words": 2968,
     "segments": [
       {
         "subject": "Unknown",
         "location": "Redtinge Overgrowth",
-        "observer": "???"
+        "observer": "???",
+        "words": 245,
+        "characters": ["Inis"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
       },
       {
         "subject": "Inis - [Requesting Reanalysis]",
         "location": "Redtinge Overgrowth",
-        "observer": "???"
+        "observer": "???",
+        "words": 902,
+        "characters": ["Inis"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
       },
       {
         "subject": "Inis - [Requesting Reanalysis]",
         "location": "Redtinge Overgrowth",
-        "observer": "???"
+        "observer": "???",
+        "words": 537,
+        "characters": ["Inis"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
       },
       {
         "subject": "Inis - [Requesting Reanalysis]",
         "location": "Redtinge Overgrowth",
-        "observer": "???"
+        "observer": "???",
+        "words": 544,
+        "characters": ["Inis"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
       },
       {
         "subject": "Inis - [Requesting Reanalysis]",
         "location": "Redtinge Overgrowth",
-        "observer": "???"
+        "observer": "???",
+        "words": 741,
+        "characters": ["Inis"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
       }
     ],
-    "characters": [null]
+    "characters": ["Inis"]
   },
   "chapter-26.md": {
     "name": "chapter-26.md",
     "title": " Seeker Solidarity",
+    "words": 2016,
     "segments": [
-      { "subject": "Caim", "location": "Riventread", "observer": "???" },
-      { "subject": "Seru", "location": "Riventread", "observer": "???" },
-      { "subject": "Caim", "location": "Riventread", "observer": "???" },
-      { "subject": "Caim", "location": "Riventread", "observer": "???" }
+      {
+        "subject": "Caim",
+        "location": "Riventread",
+        "observer": "???",
+        "words": 642,
+        "characters": ["Caim"],
+        "subjects": {
+          "combat equipment": {
+            "weapons": ["blade"],
+            "armor": ["robe"],
+            "accessories": ["ring"]
+          }
+        }
+      },
+      {
+        "subject": "Seru",
+        "location": "Riventread",
+        "observer": "???",
+        "words": 366,
+        "characters": ["Caim"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
+      },
+      {
+        "subject": "Caim",
+        "location": "Riventread",
+        "observer": "???",
+        "words": 751,
+        "characters": ["Caim", "Mille"],
+        "subjects": {
+          "combat equipment": { "armor": ["robe"], "accessories": ["ring"] }
+        }
+      },
+      {
+        "subject": "Caim",
+        "location": "Riventread",
+        "observer": "???",
+        "words": 256,
+        "characters": ["Caim", "Mille"],
+        "subjects": { "combat equipment": { "armor": ["light armor"] } }
+      }
     ],
-    "characters": [null]
+    "characters": ["Caim", "Mille"]
   },
   "chapter-27.md": {
     "name": "chapter-27.md",
     "title": " Catalyst",
+    "words": 1552,
     "segments": [
-      { "subject": "Caim", "location": "Riventread", "observer": "???" },
-      { "subject": "Caim", "location": "Riventread", "observer": "???" },
-      { "subject": "Caim", "location": "Riventread", "observer": "???" },
-      { "subject": "Caim", "location": "Sorus Valley", "observer": "???" }
+      {
+        "subject": "Caim",
+        "location": "Riventread",
+        "observer": "???",
+        "words": 375,
+        "characters": ["Caim"],
+        "subjects": {}
+      },
+      {
+        "subject": "Caim",
+        "location": "Riventread",
+        "observer": "???",
+        "words": 310,
+        "characters": ["Caim"],
+        "subjects": {}
+      },
+      {
+        "subject": "Caim",
+        "location": "Riventread",
+        "observer": "???",
+        "words": 394,
+        "characters": ["Caim"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
+      },
+      {
+        "subject": "Caim",
+        "location": "Sorus Valley",
+        "observer": "???",
+        "words": 473,
+        "characters": ["Caim"],
+        "subjects": {
+          "combat equipment": { "weapons": ["blade"], "accessories": ["ring"] }
+        }
+      }
     ],
-    "characters": [null]
+    "characters": ["Caim"]
   },
   "chapter-28.md": {
     "name": "chapter-28.md",
     "title": " The Unlucky Artisan",
+    "words": 2902,
     "segments": [
-      { "subject": "Caim", "location": "Sorus Valley", "observer": "???" },
-      { "subject": "Caim", "location": "Sorus Valley", "observer": "???" },
-      { "subject": "Caim", "location": "Sorus Valley", "observer": "???" }
+      {
+        "subject": "Caim",
+        "location": "Sorus Valley",
+        "observer": "???",
+        "words": 1661,
+        "characters": ["Caim", "Mille", "Gwen"],
+        "subjects": {
+          "combat equipment": { "weapons": ["axe"], "accessories": ["ring"] }
+        }
+      },
+      {
+        "subject": "Caim",
+        "location": "Sorus Valley",
+        "observer": "???",
+        "words": 296,
+        "characters": ["Caim", "Gwen"],
+        "subjects": {}
+      },
+      {
+        "subject": "Caim",
+        "location": "Sorus Valley",
+        "observer": "???",
+        "words": 942,
+        "characters": ["Caim", "Mille", "Gwen"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
+      }
     ],
-    "characters": [null]
+    "characters": ["Caim", "Mille", "Gwen"]
   },
   "chapter-29.md": {
     "name": "chapter-29.md",
     "title": " The Seeds of Profit",
+    "words": 3253,
     "segments": [
       {
         "subject": "Gwen",
         "location": "Maliscade - Gate District",
-        "observer": "???"
+        "observer": "???",
+        "words": 1002,
+        "characters": ["Caim", "Gwen"],
+        "subjects": {
+          "combat equipment": {
+            "weapons": ["axe"],
+            "armor": ["robe"],
+            "accessories": ["ring"]
+          }
+        }
       },
       {
         "subject": "Caim",
         "location": "Maliscade - Gate District",
-        "observer": "???"
+        "observer": "???",
+        "words": 2246,
+        "characters": ["Caim", "Gwen"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
       }
     ],
-    "characters": [null]
+    "characters": ["Caim", "Gwen"]
   },
   "chapter-30.md": {
     "name": "chapter-30.md",
     "title": " The Idle Botanist",
+    "words": 1951,
     "segments": [
       {
         "subject": "Caim",
         "location": "Maliscade - Gate District - Protoflora: Envisioned Ecosystems",
-        "observer": "???"
+        "observer": "???",
+        "words": 783,
+        "characters": ["Caim", "Gwen"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
       },
       {
         "subject": "Caim",
         "location": "Maliscade - Gate District - Protoflora: Envisioned Ecosystems",
-        "observer": "???"
+        "observer": "???",
+        "words": 570,
+        "characters": ["Caim", "Gwen"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
       },
       {
         "subject": "Caim",
         "location": "Maliscade - Gate District - Protoflora: Envisioned Ecosystems",
-        "observer": "???"
+        "observer": "???",
+        "words": 595,
+        "characters": ["Caim", "Gwen"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
       }
     ],
-    "characters": [null]
+    "characters": ["Caim", "Gwen"]
   },
   "chapter-31.md": {
     "name": "chapter-31.md",
     "title": " Vision",
+    "words": 2791,
     "segments": [
       {
         "subject": "Caim",
         "location": "Maliscade - Gate District - Protoflora: Envisioned Ecosystems",
-        "observer": "???"
+        "observer": "???",
+        "words": 661,
+        "characters": ["Caim", "Gwen"],
+        "subjects": { "combat equipment": { "armor": ["robe"] } }
       },
       {
         "subject": "Caim",
         "location": "Maliscade - Gate District - Protoflora: Envisioned Ecosystems",
-        "observer": "???"
+        "observer": "???",
+        "words": 1015,
+        "characters": ["Caim", "Gwen"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
       },
       {
         "subject": "Caim",
         "location": "Maliscade - Gate District - Protoflora: Envisioned Ecosystems",
-        "observer": "???"
+        "observer": "???",
+        "words": 1114,
+        "characters": ["Caim", "Gwen"],
+        "subjects": { "combat equipment": { "weapons": ["axe"] } }
       }
     ],
-    "characters": [null]
+    "characters": ["Caim", "Gwen"]
   },
   "chapter-32.md": {
     "name": "chapter-32.md",
     "title": " Mutualism",
+    "words": 2218,
     "segments": [
       {
         "subject": "Inis - [Requesting Reanalysis]",
         "location": "Redtinge Overgrowth",
-        "observer": "???"
+        "observer": "???",
+        "words": 496,
+        "characters": ["Inis"],
+        "subjects": {}
       },
       {
         "subject": "Inis - [Requesting Reanalysis]",
         "location": "Redtinge Overgrowth",
-        "observer": "???"
+        "observer": "???",
+        "words": 731,
+        "characters": ["Inis"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
       },
       {
         "subject": "Inis - [Requesting Reanalysis]",
         "location": "Redtinge Overgrowth",
-        "observer": "???"
+        "observer": "???",
+        "words": 990,
+        "characters": ["Inis"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
       }
     ],
-    "characters": [null]
+    "characters": ["Inis"]
   },
   "chapter-33.md": {
     "name": "chapter-33.md",
     "title": " Devourer",
+    "words": 2620,
     "segments": [
       {
         "subject": "Inis - [Requesting Reanalysis]",
         "location": "Redtinge Overgrowth",
-        "observer": "???"
+        "observer": "???",
+        "words": 983,
+        "characters": ["Inis"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
       },
       {
         "subject": "Inis - [Requesting Reanalysis]",
         "location": "Redtinge Overgrowth",
-        "observer": "???"
+        "observer": "???",
+        "words": 415,
+        "characters": ["Inis"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
       },
       {
         "subject": "Inis - [Requesting Reanalysis]",
         "location": "Redtinge Overgrowth",
-        "observer": "???"
+        "observer": "???",
+        "words": 668,
+        "characters": ["Inis"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
       },
       {
         "subject": "Inis - [Requesting Reanalysis]",
         "location": "Redtinge Overgrowth",
-        "observer": "???"
+        "observer": "???",
+        "words": 554,
+        "characters": ["Inis"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
       }
     ],
-    "characters": [null]
+    "characters": ["Inis"]
   },
   "chapter-34.md": {
     "name": "chapter-34.md",
     "title": " Metacognition",
+    "words": 1818,
     "segments": [
       {
         "subject": "Inis - [Requesting Reanalysis]",
         "location": "Redtinge Overgrowth",
-        "observer": "???"
+        "observer": "???",
+        "words": 303,
+        "characters": ["Inis"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
       },
       {
         "subject": "Inis - [Requesting Reanalysis]",
         "location": "Redtinge Overgrowth",
-        "observer": "???"
+        "observer": "???",
+        "words": 936,
+        "characters": ["Inis"],
+        "subjects": {
+          "combat equipment": { "armor": ["robe"], "accessories": ["ring"] }
+        }
       },
       {
         "subject": "Inis - [Requesting Reanalysis]",
         "location": "Redtinge Overgrowth",
-        "observer": "???"
+        "observer": "???",
+        "words": 298,
+        "characters": ["Inis"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
       },
-      { "subject": "Metis", "location": "???", "observer": "???" }
+      {
+        "subject": "Metis",
+        "location": "???",
+        "observer": "???",
+        "words": 281,
+        "characters": ["Inis"],
+        "subjects": {}
+      }
     ],
-    "characters": [null]
+    "characters": ["Inis"]
   },
   "chapter-35.md": {
     "name": "chapter-35.md",
     "title": " Hunger",
+    "words": 1602,
     "segments": [
       {
         "subject": "Inis - [Requesting Reanalysis]",
         "location": "Redtinge Overgrowth",
-        "observer": "???"
+        "observer": "???",
+        "words": 1599,
+        "characters": ["Inis"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
       }
     ],
-    "characters": [null]
+    "characters": ["Inis"]
   },
   "chapter-36.md": {
     "name": "chapter-36.md",
     "title": " Forgotten Contract",
+    "words": 2629,
     "segments": [
       {
         "subject": "Sonia",
         "location": "Redtinge Overgrowth",
-        "observer": "???"
+        "observer": "???",
+        "words": 2182,
+        "characters": ["Inis"],
+        "subjects": {
+          "combat equipment": {
+            "armor": ["light armor"],
+            "accessories": ["ring"]
+          }
+        }
       },
       {
         "subject": "Inis",
         "location": "Redtinge Overgrowth",
-        "observer": "???"
+        "observer": "???",
+        "words": 444,
+        "characters": ["Inis"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
       }
     ],
-    "characters": [null]
+    "characters": ["Inis"]
   },
   "chapter-37.md": {
     "name": "chapter-37.md",
     "title": " Disconnect",
+    "words": 2715,
     "segments": [
       {
         "subject": "Caim",
         "location": "Maliscade - Blightbane Guild",
-        "observer": "???"
+        "observer": "???",
+        "words": 1144,
+        "characters": ["Caim", "Mille", "Gwen"],
+        "subjects": {
+          "combat equipment": { "weapons": ["axe"], "accessories": ["ring"] }
+        }
       },
       {
         "subject": "Caim",
         "location": "Maliscade - Blightbane Guild",
-        "observer": "???"
+        "observer": "???",
+        "words": 655,
+        "characters": ["Caim", "Mille", "Gwen"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
       },
       {
         "subject": "Caim",
         "location": "Riventread - Outskirts",
-        "observer": "???"
+        "observer": "???",
+        "words": 460,
+        "characters": ["Caim"],
+        "subjects": {}
       },
       {
         "subject": "Caim",
         "location": "Maliscade - Blightbane Guild",
-        "observer": "???"
+        "observer": "???",
+        "words": 456,
+        "characters": ["Caim", "Mille"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
       }
     ],
-    "characters": [null]
+    "characters": ["Caim", "Mille", "Gwen"]
   },
   "chapter-38.md": {
     "name": "chapter-38.md",
     "title": " Lantern",
+    "words": 1484,
     "segments": [
       {
         "subject": "Caim",
         "location": "Riventread - Outskirts Layer",
-        "observer": "???"
+        "observer": "???",
+        "words": 1127,
+        "characters": ["Caim", "Gwen"],
+        "subjects": {
+          "combat equipment": { "weapons": ["blade"], "accessories": ["ring"] }
+        }
       },
       {
         "subject": "Caim",
         "location": "Riventread - Outskirts Layer",
-        "observer": "???"
+        "observer": "???",
+        "words": 355,
+        "characters": ["Caim"],
+        "subjects": {}
       }
     ],
-    "characters": [null]
+    "characters": ["Caim", "Gwen"]
   },
   "chapter-39.md": {
     "name": "chapter-39.md",
     "title": " The Weight of the Guild",
+    "words": 3245,
     "segments": [
       {
         "subject": "Mille",
         "location": "Maliscade - Blightbane Guild",
-        "observer": "???"
+        "observer": "???",
+        "words": 986,
+        "characters": ["Caim", "Mille"],
+        "subjects": {
+          "combat equipment": { "weapons": ["axe"], "accessories": ["ring"] }
+        }
       },
       {
         "subject": "Mille",
         "location": "Maliscade - Blightbane Guild",
-        "observer": "???"
+        "observer": "???",
+        "words": 2253,
+        "characters": ["Caim", "Mille"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
       }
     ],
-    "characters": [null]
+    "characters": ["Caim", "Mille"]
   },
   "chapter-40.md": {
     "name": "chapter-40.md",
     "title": " Progress Check",
+    "words": 2234,
     "segments": [
       {
         "subject": "Caim",
         "location": "Maliscade - Blightbane Guild",
-        "observer": "???"
+        "observer": "???",
+        "words": 1678,
+        "characters": ["Caim", "Mille", "Gwen"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
       },
-      { "subject": "Metis", "location": "???", "observer": "???" }
+      {
+        "subject": "Metis",
+        "location": "???",
+        "observer": "???",
+        "words": 553,
+        "characters": ["Inis"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
+      }
     ],
-    "characters": [null]
+    "characters": ["Caim", "Mille", "Gwen", "Inis"]
   },
   "chapter-41.md": {
     "name": "chapter-41.md",
     "title": " Repetition",
+    "words": 2843,
     "segments": [
       {
         "subject": "Caim",
         "location": "Maliscade - Blightbane Guild",
-        "observer": "???"
+        "observer": "???",
+        "words": 1429,
+        "characters": ["Caim", "Mille", "Gwen"],
+        "subjects": {
+          "combat equipment": { "weapons": ["axe"], "accessories": ["ring"] }
+        }
       },
       {
         "subject": "Caim",
         "location": "Maliscade - Blightbane Guild",
-        "observer": "???"
+        "observer": "???",
+        "words": 1412,
+        "characters": ["Caim", "Mille", "Gwen"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
       }
     ],
-    "characters": [null]
+    "characters": ["Caim", "Mille", "Gwen"]
   },
   "chapter-42.md": {
     "name": "chapter-42.md",
     "title": " Magitech Secrets",
+    "words": 3240,
     "segments": [
       {
         "subject": "Mille",
         "location": "Maliscade - Blightbane Guild",
-        "observer": "???"
+        "observer": "???",
+        "words": 683,
+        "characters": ["Caim", "Mille"],
+        "subjects": {
+          "combat equipment": {
+            "weapons": ["axe", "staff"],
+            "accessories": ["ring"]
+          }
+        }
       },
       {
         "subject": "Caim",
         "location": "Maliscade - Blightbane Guild",
-        "observer": "???"
+        "observer": "???",
+        "words": 449,
+        "characters": ["Caim", "Mille"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
       },
       {
         "subject": "Caim",
         "location": "Maliscade - Blightbane Guild",
-        "observer": "???"
+        "observer": "???",
+        "words": 2106,
+        "characters": ["Caim", "Mille", "Gwen"],
+        "subjects": {
+          "combat equipment": {
+            "weapons": ["axe", "staff"],
+            "armor": ["boots"],
+            "accessories": ["ring"]
+          }
+        }
       }
     ],
-    "characters": [null]
+    "characters": ["Caim", "Mille", "Gwen"]
   },
   "chapter-43.md": {
     "name": "chapter-43.md",
     "title": " The Welders",
+    "words": 2707,
     "segments": [
       {
         "subject": "Caim",
         "location": "Maliscade - Blightbane Guild",
-        "observer": "???"
+        "observer": "???",
+        "words": 695,
+        "characters": ["Caim", "Gwen"],
+        "subjects": {
+          "combat equipment": { "armor": ["helmet"], "accessories": ["ring"] }
+        }
       },
       {
         "subject": "Caim",
         "location": "Maliscade - Blightbane Guild",
-        "observer": "???"
+        "observer": "???",
+        "words": 2009,
+        "characters": ["Caim", "Mille"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
       }
     ],
-    "characters": [null]
+    "characters": ["Caim", "Gwen", "Mille"]
   },
   "chapter-44.md": {
     "name": "chapter-44.md",
     "title": " Entering Lockdown",
+    "words": 2617,
     "segments": [
       {
         "subject": "Aiden",
         "location": "Maliscade - Commerce District",
-        "observer": "???"
+        "observer": "???",
+        "words": 955,
+        "characters": [],
+        "subjects": {
+          "combat equipment": {
+            "weapons": ["blade"],
+            "armor": ["helmet"],
+            "accessories": ["ring"]
+          }
+        }
       },
       {
         "subject": "Caim",
         "location": "Maliscade - Blightbane Guild",
-        "observer": "???"
+        "observer": "???",
+        "words": 658,
+        "characters": ["Caim", "Mille"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
       },
       {
         "subject": "Gillis",
         "location": "Maliscade - Gate District",
-        "observer": "???"
+        "observer": "???",
+        "words": 1002,
+        "characters": [],
+        "subjects": {
+          "combat equipment": { "armor": ["boots"], "accessories": ["ring"] }
+        }
       }
     ],
-    "characters": [null]
+    "characters": ["Caim", "Mille"]
   },
   "chapter-45.md": {
     "name": "chapter-45.md",
     "title": " Safeguard Catalyst",
+    "words": 2844,
     "segments": [
       {
         "subject": "Caim",
         "location": "Maliscade - Blightbane Guild",
-        "observer": "???"
+        "observer": "???",
+        "words": 926,
+        "characters": ["Caim", "Mille"],
+        "subjects": { "combat equipment": { "accessories": ["ring"] } }
       },
       {
         "subject": "Caim",
         "location": "Maliscade - Blightbane Guild",
-        "observer": "???"
+        "observer": "???",
+        "words": 1915,
+        "characters": ["Caim", "Mille"],
+        "subjects": {
+          "combat equipment": { "accessories": ["ring", "explosive"] }
+        }
       }
     ],
-    "characters": [null]
+    "characters": ["Caim", "Mille"]
   }
 }

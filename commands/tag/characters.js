@@ -16,7 +16,7 @@ export const getCharacterMap = () => {
   const characterMap = {};
   const characters = getCharactersData();
 
-  for (const character in characters) {
+  for (const character of characters) {
     character.aliases.forEach((alias) => {
       characterMap[alias] = character.name;
       characterMap[`${alias}'s`] = character.name;
@@ -33,7 +33,7 @@ export const getCharactersInSegment = (segment) => {
   const characterMap = getCharacterMap();
   const charactersInSegment = [];
 
-  for (const character in characters) {
+  for (const character of characters) {
     if (segment.includes(character)) {
       charactersInSegment.push(characterMap[character]);
     }

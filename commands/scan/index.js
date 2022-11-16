@@ -1,5 +1,6 @@
 import fs from 'fs';
 import path from 'path';
+import { getWordCount } from '../../utils/index.js';
 
 const readChapter = (chapterNumber) => {
   const chapterPath = `G:/My Drive/stories/blightbane/chapters/current/chapter-${chapterNumber}.md`;
@@ -9,6 +10,7 @@ const readChapter = (chapterNumber) => {
 const readCurrentChapters = () => {
   const chapters = [];
   const currentChaptersPath = process.env.CHAPTERS_CURRENT_PATH;
+  const END_CHAPTER = 45;
 
   fs.readdirSync(currentChaptersPath).forEach((file) => {
     if (
@@ -18,15 +20,16 @@ const readCurrentChapters = () => {
       const chapterPath = path.join(currentChaptersPath, file);
 
       if (
-        parseInt(file.split('-')[1].split('.')[0]) < 46 &&
+        parseInt(file.split('-')[1].split('.')[0]) <= END_CHAPTER &&
         readFileText(chapterPath).split('---').length > 1
       ) {
-        console.log(parseInt(file.split('-')[1].split('.')[0]));
+        const contents = readFileText(chapterPath);
         const chapterInfo = {
           name: file,
           path: chapterPath,
-          title: readFileText(chapterPath).split('\r')[0].split(':')[1],
-          contents: readFileText(chapterPath),
+          title: contents.split('\r')[0].split(':')[1],
+          words: parseInt(getWordCount(contents)) || 0,
+          contents,
         };
         chapters.push(chapterInfo);
       }

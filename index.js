@@ -80,7 +80,8 @@ const runApp = async () => {
     // );
     // command.scan.readChapter(1);
     // console.log(command.scan.readCurrentChapters());
-    setAllChapterData();
+    // setAllChapterData();
+    // command.create.clearChapterFiles();
   } catch (error) {
     console.log(error);
   }
