@@ -4,13 +4,13 @@ import { getWordCount } from '../../utils/index.js';
 
 const readChapter = (chapterNumber) => {
   const chapterPath = `G:/My Drive/stories/blightbane/chapters/current/chapter-${chapterNumber}.md`;
-  readFileText(chapterPath);
+  return readFileText(chapterPath);
 };
 
 const readCurrentChapters = () => {
   const chapters = [];
   const currentChaptersPath = process.env.CHAPTERS_CURRENT_PATH;
-  const END_CHAPTER = 45;
+  const END_CHAPTER = 54;
 
   fs.readdirSync(currentChaptersPath).forEach((file) => {
     if (

@@ -6,6 +6,13 @@ import { google } from 'googleapis';
 import { authenticate } from '@google-cloud/local-auth';
 import command from './commands/index.js';
 import { setAllChapterData } from './commands/tag/index.js';
+import {
+  analyzeWordFrequency,
+  analyzeFullWordFrequency,
+  recordWordFrequency,
+  getCurrentChaptersWords,
+  getIrregularWords,
+} from './commands/language/index.js';
 
 dotenv.config();
 
@@ -82,6 +89,7 @@ const runApp = async () => {
     // console.log(command.scan.readCurrentChapters());
     // setAllChapterData();
     // command.create.clearChapterFiles();
+    console.log(getIrregularWords());
   } catch (error) {
     console.log(error);
   }

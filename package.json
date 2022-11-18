@@ -20,9 +20,12 @@
   "homepage": "https://github.com/floranova13/pulse-story-manager#readme",
   "dependencies": {
     "@google-cloud/local-auth": "^2.1.0",
+    "dictionary-en": "^3.2.0",
     "dotenv": "^16.0.3",
     "eslint": "^8.27.0",
     "googleapis": "^105.0.0",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "natural": "^5.2.3",
+    "nspell": "^2.1.5"
   }
 }

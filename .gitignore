@@ -107,3 +107,6 @@ dist
 .env
 credentials.json
 token.json
+currentChapters.json
+wordFrequency.json
+irregularWords.json
