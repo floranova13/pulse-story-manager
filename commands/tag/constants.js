@@ -1,3 +1,4 @@
+/* eslint-disable quotes */
 export const CHARACTER_NAMES = {
   primary: [
     {
@@ -19,7 +20,7 @@ export const CHARACTER_NAMES = {
   secondary: [
     {
       name: 'Alice',
-      aliases: ['Alica', 'Alicia'],
+      aliases: ['Alice', 'Alicia'],
       type: 'secondary',
     },
     {
@@ -30,6 +31,11 @@ export const CHARACTER_NAMES = {
     {
       name: 'Gwen',
       aliases: ['Gwen', 'Gwendolyn'],
+      type: 'secondary',
+    },
+    {
+      name: 'Vera',
+      aliases: ['Vera'],
       type: 'secondary',
     },
   ],
@@ -90,6 +96,103 @@ export const SUBJECTS = [
           'amulet',
           'explosive',
         ],
+      },
+    ],
+  },
+  {
+    subject: 'magic',
+    categories: [
+      {
+        category: 'branches',
+        elements: ['vira', 'sol', 'lumine'],
+      },
+      {
+        category: 'classifications',
+        elements: ['offensive', 'defensive', 'utility'],
+      },
+      {
+        category: 'spells',
+        elements: []
+      },
+    ],
+  },
+  {
+    subject: 'festerfonts',
+    categories: [
+      {
+        category: 'general',
+        elements: ['saturation']
+      },
+      {
+        category: 'layers',
+        elements: ['outskirts', 'body', 'core']
+      },
+      {
+        category: 'classifications',
+        elements: ['clarion', 'umbra', 'nihil']
+      },
+      {
+        category: 'saturations',
+        elements: ['placid', 'rippling', 'violent']
+      },
+      {
+        category: 'configurations',
+        elements: ['generic', 'command', 'waypoint', 'infection', 'invasion', 'waypoint']
+      },
+    ],
+  },
+  {
+    subject: 'blightbeasts',
+    categories: [
+      {
+        category: 'general',
+        elements: ['blightbeast', 'blightbeasts', 'blightseed', 'blightseeds', 'accumulation'],
+      },
+      {
+        category: 'roots',
+        elements: ['arth', 'botan', 'chorth'],
+      },
+      {
+        category: 'arth',
+        elements: ['titarche', 'medimite', 'fellchital'],
+      },
+      {
+        category: 'botan',
+        elements: ['marole', 'coreplet', 'felldrasil'],
+      },
+      {
+        category: 'chorth',
+        elements: ['piscel', 'elfirmant', 'fellmal'],
+      },
+      {
+        category: 'blightbeasts',
+        elements: [''],
+      },
+    ],
+  },
+  {
+    subject: 'shops',
+    categories: [
+      {
+        category: 'maliscade',
+        elements: ["ashera's attires",],
+      }
+    ],
+  },
+  {
+    subject: 'tools',
+    categories: [
+      {
+        category: 'mundane',
+        elements: [''],
+      },
+      {
+        category: 'magitech',
+        elements: ['memgel'],
+      },
+      {
+        category: 'arcane',
+        elements: [''],
       },
     ],
   },

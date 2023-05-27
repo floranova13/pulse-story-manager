@@ -50,4 +50,35 @@ export const getSubjectMap = () => {
   return subjectMap;
 };
 
+export const getCategory = (category) => {
+  let categoryMap = {};
+
+  for (const subcategory of category.subcategories) {
+    if (isFinalCategory(subcategory)) {
+      for (const element of subcategory.elements) {
+        if (categoryMap[element]) {
+          categoryMap[element].push(subcategory.category);
+        } else {
+          categoryMap[element] = [subcategory.subcategory];
+        }
+      }
+      const innerCategory = getCategory(subcategory);
+
+      if (categoryMap[subcategory.category]) {
+        categoryMap[subcategory.category] = [
+          ...categoryMap[subcategory.category],
+          innerCategory,
+        ];
+      } else {
+        categoryMap[subcategory.category] = [innerCategory];
+      }
+    } else {
+      const innerCategory = getCategory(subcategory);
+    }
+  }
+  return categoryMap;
+};
+
+export const isFinalCategory = (data) => data.elements !== undefined;
+
 export const getSubjectWords = () => Object.keys(getSubjectMap());
